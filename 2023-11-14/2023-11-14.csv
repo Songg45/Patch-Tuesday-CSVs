@@ -1,0 +1,437 @@
+﻿Release date,Last Updated,CVE Number,CVE Title,CVE Link,MRSC Link,Impact,Max Severity,Tag,Vector String,Mitigations,Workarounds,All Articles
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36018,Visual Studio Code Jupyter Extension Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36018,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36018,Spoofing,Important,Visual Studio Code,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metrics, successful exploitation of this vulnerability could lead to major loss of confidentiality (C:H), integrity (I:H), and availability (A:H). What does that mean for this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain high privileges, which include read, write, and delete functionality.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36016,Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36016,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36016,Spoofing,Important,Microsoft Dynamics,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>The user would have to click on a specially crafted URL to be compromised by the attacker.</p>
+"
+"Nov 14, 2023","Nov 22, 2023",CVE-2023-36025,Windows SmartScreen Security Feature Bypass Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36025,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36025,Security Feature Bypass,Important,Windows SmartScreen,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C,,,"<p><strong>What kind of security feature could be bypassed by successfully exploiting this vulnerability?</strong></p>
+<p>The attacker would be able to bypass Windows Defender SmartScreen checks and their associated prompts.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36021,Microsoft On-Prem Data Gateway Security Feature Bypass Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36021,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36021,Security Feature Bypass,Important,Azure,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What kind of security feature could be bypassed by successfully exploiting this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could bypass certificate validation mechanisms and provide arbitrary certificates that do not have proper signatures.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36033,Windows DWM Core Library Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36033,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36033,Elevation of Privilege,Important,Windows DWM Core Library,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36031,Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36031,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36031,Spoofing,Important,Microsoft Dynamics,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>The user would have to click on a specially crafted URL to be compromised by the attacker.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36030,Microsoft Dynamics 365 Sales Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36030,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36030,Spoofing,Important,Microsoft Dynamics 365 Sales,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, a successful exploitation could lead to a scope change (S:C). What does this mean for this vulnerability?</strong></p>
+<p>The vulnerability is in the web server, but the malicious scripts execute in the victim’s browser on their machine.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36028,Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36028,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36028,Remote Code Execution,Important,Windows Protected EAP (PEAP),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>An unauthenticated attacker could attack a Microsoft Protected Extensible Authentication Protocol (PEAP) Server by sending specially crafted malicious PEAP packets over the network.</p>
+"
+"Nov 14, 2023","Dec 4, 2023",CVE-2023-36035,Microsoft Exchange Server Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36035,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36035,Spoofing,Important,Microsoft Exchange Server,CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metrics, successful exploitation of this vulnerability could lead to major loss of confidentiality (C:H), integrity (I:H) and availability (A:H). What does that mean for this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could access a user's Net-NTLMv2 hash which could be used as a basis of an NTLM Relay attack against another service to authenticate as the user.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36038,ASP.NET Core Denial of Service Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36038,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36038,Denial of Service,Important,ASP.NET,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>This vulnerability could be exploited if http requests to .NET 8 RC 1 running on IIS InProcess hosting model are cancelled.  Threads counts would increase and an OutOfMemoryException is possible.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36037,Microsoft Excel Security Feature Bypass Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36037,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36037,Security Feature Bypass,Important,Microsoft Office Excel,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>An attacker must send the user a malicious file and convince them to open it.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36045,Microsoft Office Graphics Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36045,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36045,Remote Code Execution,Important,Microsoft Office,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution?</strong></p>
+<p>The word <strong>Remote</strong> in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally.</p>
+<p>For example, when the score indicates that the <strong>Attack Vector</strong> is <strong>Local</strong> and <strong>User Interaction</strong> is <strong>Required</strong>, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36042,Visual Studio Denial of Service Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36042,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36042,Denial of Service,Important,Visual Studio,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C,,,
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36041,Microsoft Excel Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36041,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36041,Remote Code Execution,Important,Microsoft Office Excel,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution?</strong></p>
+<p>The word <strong>Remote</strong> in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally.</p>
+<p>For example, when the score indicates that the <strong>Attack Vector</strong> is <strong>Local</strong> and <strong>User Interaction</strong> is <strong>Required</strong>, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36039,Microsoft Exchange Server Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36039,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36039,Spoofing,Important,Microsoft Exchange Server,CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metrics, successful exploitation of this vulnerability could lead to major loss of confidentiality (C:H), integrity (I:H) and availability (A:H). What does that mean for this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could access a user's Net-NTLMv2 hash which could be used as a basis of an NTLM Relay attack against another service to authenticate as the user.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36050,Microsoft Exchange Server Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36050,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36050,Spoofing,Important,Microsoft Exchange Server,CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, privileges required is low (PR:L). Does the attacker need to be in an authenticated role on the Exchange Server?</strong></p>
+<p>Yes, the attacker must be authenticated with LAN-access and have credentials for a valid Exchange user.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-24023,Mitre: CVE-2023-24023 Bluetooth Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-24023,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24023,Spoofing,Important,Microsoft Bluetooth Driver,,,,"<p><strong>Why is the MITRE Corporation the assigning CNA (CVE Numbering Authority)?</strong></p>
+<p><a href=""https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24023"">CVE-2023-24023</a> is regarding a vulnerability reported to the Bluetooth Special Interest Group (Bluetooth SIG). MITRE assigned this CVE number on behalf of the Bluetooth organization https://www.bluetooth.com/about-us/vision/.</p>
+"
+"Nov 14, 2023","Nov 17, 2023",CVE-2023-36049,".NET, .NET Framework, and Visual Studio Elevation of Privilege Vulnerability",https://www.cve.org/CVERecord?id=CVE-2023-36049,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36049,Elevation of Privilege,Important,.NET Framework,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L/E:P/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>To exploit this vulnerability an attacker would have to inject arbitrary commands to the FTP server.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36047,Windows Authentication Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36047,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36047,Elevation of Privilege,Important,Windows Authentication Methods,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36046,Windows Authentication Denial of Service Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36046,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36046,Denial of Service,Important,Windows Authentication Methods,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metrics, successful exploitation of this vulnerability does not impact confidentiality (C:N) but has major impact on integrity (I:H) and availability (A:H). What does that mean for this vulnerability?</strong></p>
+<p>An attacker who successfully exploits this vulnerability cannot access existing files (C:N) but can write or overwrite file contents (I:H), which potentially may cause the system to become unavailable (A:H).</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36392,DHCP Server Service Denial of Service Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36392,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36392,Denial of Service,Important,Windows DHCP Server,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C,,,
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36393,Windows User Interface Application Core Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36393,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36393,Remote Code Execution,Important,Tablet Windows User Interface,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution?</strong></p>
+<p>The word <strong>Remote</strong> in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally.</p>
+<p>For example, when the score indicates that the <strong>Attack Vector</strong> is <strong>Local</strong> and <strong>User Interaction</strong> is <strong>Required</strong>, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36394,Windows Search Service Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36394,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36394,Elevation of Privilege,Important,Microsoft Windows Search Component,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?</strong></p>
+<p>Successful exploitation of this vulnerability requires an attacker to win a race condition.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36395,Windows Deployment Services Denial of Service Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36395,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36395,Denial of Service,Important,Windows Deployment Services,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C,,,
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36396,Windows Compressed Folder Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36396,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36396,Remote Code Execution,Important,Windows Compressed Folder,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution?</strong></p>
+<p>The word <strong>Remote</strong> in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally.</p>
+<p>For example, when the score indicates that the <strong>Attack Vector</strong> is <strong>Local</strong> and <strong>User Interaction</strong> is <strong>Required</strong>, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36397,Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36397,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36397,Remote Code Execution,Critical,Windows Internet Connection Sharing (ICS),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,"<p>Mitigation refers to a setting, common configuration, or general best-practice, existing in a default state, that could reduce the severity of exploitation of a vulnerability. The following mitigating factors might be helpful in your situation:</p><p>The Windows message queuing service, which is a Windows component, needs to be enabled for a system to be exploitable by this vulnerability. This feature can be added via the Control Panel.</p><p>You can check to see if there is a service running named <strong>Message Queuing</strong> and TCP port 1801 is listening on the machine.</p>
+",,"<p>Mitigation refers to a setting, common configuration, or general best-practice, existing in a default state, that could reduce the severity of exploitation of a vulnerability. The following mitigating factors might be helpful in your situation:</p>
+<p>The Windows message queuing service, which is a Windows component, needs to be enabled for a system to be exploitable by this vulnerability. This feature can be added via the Control Panel.</p>
+<p>You can check to see if there is a service running named <strong>Message Queuing</strong> and TCP port 1801 is listening on the machine.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36398,Windows NTFS Information Disclosure Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36398,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36398,Information Disclosure,Important,Windows NTFS,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C,,,"<p><strong>What type of information could be disclosed by this vulnerability?</strong></p>
+<p>The type of information that could be disclosed if an attacker successfully exploited this vulnerability is the contents of Kernel memory. An attacker could read the contents of Kernel memory from a user mode process.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36399,Windows Storage Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36399,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36399,Elevation of Privilege,Important,Windows Storage,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36400,Windows HMAC Key Derivation Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36400,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36400,Elevation of Privilege,Critical,Windows HMAC Key Derivation,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, a successful exploitation could lead to a scope change (S:C). What does this mean for this vulnerability?</strong></p>
+<p>In this case, a successful attack could be performed from a low privilege Hyper-V guest. The attacker could traverse the guest's security boundary to execute code on the Hyper-V host execution environment.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36401,Microsoft Remote Registry Service Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36401,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36401,Remote Code Execution,Important,Microsoft Remote Registry Service,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, privileges required is low (PR:H). What does that mean for this vulnerability?</strong></p>
+<p>Successful exploitation of this vulnerability requires the attacker must be an authenticated user on the network who is a member of the performance log users group.</p>
+<p>Although this group defaults to only Administrators, it is possible for an Administrator to add other standard users to this group.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36402,Microsoft WDAC OLE DB provider for SQL Server Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36402,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36402,Remote Code Execution,Important,Microsoft WDAC OLE DB provider for SQL,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>An attacker could exploit the vulnerability by tricking an authenticated user into attempting to connect to a malicious SQL server via OLEDB, which could result in the server receiving a malicious networking packet. This could allow the attacker to execute code remotely on the client.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36403,Windows Kernel Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36403,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36403,Elevation of Privilege,Important,Windows Kernel,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?</strong></p>
+<p>Successful exploitation of this vulnerability requires an attacker to win a race condition.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36404,Windows Kernel Information Disclosure Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36404,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36404,Information Disclosure,Important,Windows Kernel,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C,,,"<p><strong>What type of information could be disclosed by this vulnerability?</strong></p>
+<p>The type of information that could be disclosed if an attacker successfully exploited this vulnerability is values of registry keys the attacker does not have permissions to view.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36405,Windows Kernel Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36405,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36405,Elevation of Privilege,Important,Windows Kernel,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?</strong></p>
+<p>Successful exploitation of this vulnerability requires an attacker to win a race condition.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36406,Windows Hyper-V Information Disclosure Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36406,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36406,Information Disclosure,Important,Windows Hyper-V,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C,,,"<p><strong>What type of information could be disclosed by this vulnerability?</strong></p>
+<p>The type of information that could be disclosed if an attacker successfully exploited this vulnerability is Kernel memory read - unintentional read access to memory contents in kernel space from a user mode process.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36407,Windows Hyper-V Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36407,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36407,Elevation of Privilege,Important,Windows Hyper-V,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36408,Windows Hyper-V Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36408,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36408,Elevation of Privilege,Important,Windows Hyper-V,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36439,Microsoft Exchange Server Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36439,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36439,Remote Code Execution,Important,Microsoft Exchange Server,CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>For the vulnerability to be exploited, the attacker would need to be authenticated as a valid exchange user.</p>
+"
+"Nov 14, 2023","Nov 28, 2023",CVE-2023-36558,ASP.NET Core - Security Feature Bypass Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36558,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36558,Security Feature Bypass,Important,ASP.NET,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C,,,"<p><strong>What kind of security feature could be bypassed by successfully exploiting this vulnerability?</strong></p>
+<p>An unauthenticated attacker could bypass validations on Blazor Server forms.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-38177,Microsoft SharePoint Server Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-38177,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38177,Remote Code Execution,Important,Microsoft Office SharePoint,CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>In a network-based attack, an authenticated attacker could execute code remotely within the SharePoint Server.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36007,Microsoft Send Customer Voice survey from Dynamics 365 Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36007,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36007,Spoofing,Important,Microsoft Dynamics,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>The user would have to click on a specially crafted URL to be compromised by the attacker.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36017,Windows Scripting Engine Memory Corruption Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36017,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36017,Remote Code Execution,Important,Windows Scripting,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>This vulnerability requires that a user with an affected version of Windows access a malicious server. An attacker would have to host a specially crafted server share or website. An attacker would have no way to force users to visit this specially crafted server share or website, but would have to convince them to visit the server share or website, typically by way of an enticement in an email or chat message.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36036,Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36036,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36036,Elevation of Privilege,Important,Windows Cloud Files Mini Filter Driver,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36043,Open Management Infrastructure Information Disclosure Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36043,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36043,Information Disclosure,Critical,Open Management Infrastructure,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N/E:F/RL:T/RC:C,,,"<p><strong>According to the CVSS metric, a successful exploitation could lead to a scope change (S:C). What does this mean for this vulnerability?</strong></p>
+<p>An attacker who successfully exploits this vulnerability could affect resources beyond the security scope managed by the security authority of the vulnerable component. In this case, the vulnerable component could be different from the impacted component and are managed by different security authorities.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36052,Azure CLI REST Command Information Disclosure Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36052,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36052,Information Disclosure,Critical,Azure,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C,,,"<p><strong>What type of information could be disclosed by this vulnerability?</strong></p>
+<p>An attacker that successfully exploited this vulnerability could recover plaintext passwords and usernames from log files created by the affected CLI commands and published by Azure DevOps and/or GitHub Actions.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36410,Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36410,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36410,Spoofing,Important,Microsoft Dynamics,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>The user would have to click on a specially crafted URL to be compromised by the attacker.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36413,Microsoft Office Security Feature Bypass Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36413,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36413,Security Feature Bypass,Important,Microsoft Office,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>An attacker must send the user a malicious file and convince them to open it.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36422,Microsoft Windows Defender Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36422,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36422,Elevation of Privilege,Important,Windows Defender,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 16, 2023",CVE-2023-36423,Microsoft Remote Registry Service Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36423,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36423,Remote Code Execution,Important,Microsoft Remote Registry Service,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, privileges required is low (PR:L).  What does that mean for this vulnerability?</strong></p>
+<p>Any authenticated attacker could trigger this vulnerability. It does not require admin or other elevated privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36424,Windows Common Log File System Driver Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36424,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36424,Elevation of Privilege,Important,Windows Common Log File System Driver,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited the vulnerability?</strong></p>
+<p>An attacker could use this vulnerability to elevate privileges from Medium Integrity Level to a High Integrity Level.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36425,Windows Distributed File System (DFS) Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36425,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36425,Remote Code Execution,Important,Windows Distributed File System (DFS),CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, a successful exploitation could lead to a scope change (S:C). What does this mean for this vulnerability?</strong></p>
+<p>An exploited vulnerability can affect resources beyond the security scope managed by the security authority of the vulnerable component. In this case, the vulnerable component and the impacted component are different and managed by different security authorities.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36427,Windows Hyper-V Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36427,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36427,Elevation of Privilege,Important,Windows Hyper-V,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36428,Microsoft Local Security Authority Subsystem Service Information Disclosure Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36428,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36428,Information Disclosure,Important,Windows Authentication Methods,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C,,,"<p><strong>What type of information could be disclosed by this vulnerability?</strong></p>
+<p>Exploiting this vulnerability could allow the disclosure of initialized or uninitialized memory in the process heap.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36437,Azure DevOps Server Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36437,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36437,Remote Code Execution,Important,Azure DevOps,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>An attacker could exploit an integer overflow vulnerability that results in arbitrary heap writes, which could be used to perform arbitrary code execution.</p>
+"
+"Nov 14, 2023","Nov 17, 2023",CVE-2023-36560,ASP.NET Security Feature Bypass Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36560,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36560,Security Feature Bypass,Important,ASP.NET,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What kind of security feature could be bypassed by successfully exploiting this vulnerability?</strong></p>
+<p>The attacker would be able to bypass the security checks that prevents an attacker from accessing internal applications in a website.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36705,Windows Installer Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36705,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36705,Elevation of Privilege,Important,Windows Installer,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-36719,Microsoft Speech Application Programming Interface (SAPI) Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36719,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36719,Elevation of Privilege,Important,Microsoft Windows Speech,CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited this vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain SYSTEM privileges.</p>
+"
+"Nov 14, 2023","Nov 14, 2023",CVE-2023-38151,Microsoft Host Integration Server 2020 Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-38151,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38151,Remote Code Execution,Important,Azure,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the target machine if the victim connects to the attacker's malicious DB2 server and they execute a specially crafted query.</p>
+"
+"Oct 19, 2023","Nov 14, 2023",CVE-2023-38039,Hackerone: CVE-2023-38039 HTTP headers eat all memory,https://www.cve.org/CVERecord?id=CVE-2023-38039,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38039,Denial of Service,Low,Windows cURL Implementation,,,,"<p><strong>1.  When will an update be available to address this vulnerability?</strong></p>
+<p>Microsoft is fully aware of this issue and is actively working to release version 8.4.0 of curl.exe in a future Windows update for currently supported, on-premise versions of Windows clients and servers. The Security Updates table for this CVE will be updated with the Windows update KB numbers for all supported versions as they are released. Customers will be notified via a revision to this security vulnerability when those KB numbers are available. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this CVE. See <a href=""https://www.microsoft.com/en-us/msrc/technical-security-notifications?rtc=1"">Microsoft Technical Security Notifications</a> and <a href=""https://msrc-blog.microsoft.com/2022/08/09/security-update-guide-notification-system-news-create-your-profile-now/"">Security Update Guide Notification System News: Create your profile now – Microsoft Security Response Center</a>.</p>
+<p><strong>2.  What is the curl open-source project?</strong></p>
+<p>Curl is a computer software project providing a library (libcurl) and command-line tool (curl) for transferring data using various network protocols. The name stands for &quot;Client for URL&quot;. The Windows implementation provides access to the command-line tool, not the library.</p>
+<p><strong>3.  Why is this Hackerone CVE included in the Security Update Guide?</strong></p>
+<p>The vulnerability assigned to this CVE is in curl.exe software which is consumed by Microsoft Windows. It is being documented in the Security Update Guide to make customers aware that Microsoft Windows is affected by this CVE, and that Microsoft will be including the curl fix for this vulnerability in a future Windows security update. Note that we do not provide CVSS scores for non-Microsoft CVEs. See <a href=""https://nvd.nist.gov/vuln/detail/CVE-2023-38039"">NVD</a> for scoring information on this CVE.</p>
+<p><strong>4.  How could an attacker exploit the vulnerability?</strong></p>
+<p>To exploit this vulnerability, an attacker would have to convince the victim to manually launch the curl utility and direct it to connect to a compromised server. This causes a denial of service of curl.</p>
+<p>For more information see <a href=""https://curl.se/docs/CVE-2023-38039.html"">HTTP headers eat all memory</a>.</p>
+<p><strong>5.  What version of curl addresses this CVE?</strong></p>
+<p>Curl version 8.4.0 addresses this vulnerability.</p>
+<p><strong>6.  Where can I find more information about this curl vulnerability?</strong></p>
+<p>More information can be found at <a href=""https://nvd.nist.gov/vuln/detail/CVE-2023-38039"">NVD</a> and <a href=""https://curl.se/docs/CVE-2023-38039.html"">curl.se</a>.</p>
+<p><strong>7.  Are there any workarounds that can be implemented?</strong></p>
+<p>IMPORTANT: Under no circumstances should you remove or replace <code>curl.exe</code>, the curl tool executable, as doing so may damage the Windows Update component store and prevent the installation of further security updates. Instead, we recommend deploying a code integrity policy that restricts the execution of vulnerable versions of <code>curl.exe</code>.</p>
+<p>Note that after you have implemented any of the workarounds the file will still exist on disk, and can still be detected by scanning software. The workaround only provides an operating system level guarantee that the vulnerable version of the curl tool cannot be executed.</p>
+<p><strong>Workaround</strong> Use a WDAC policy to deny execution of the \system32\curl.exe executable. You can merge the deny into an existing policy or create a new policy with it using the Merge-CIPolicy cmdlet; <a href=""https://learn.microsoft.com/en-us/powershell/module/configci/merge-cipolicy?view=windowsserver2022-ps"">Merge-CIPolicy (ConfigCI) | Microsoft Learn</a>. After the policy XML file with the deny has been created or merged with an existing policy it must be deployed.</p>
+<p>Choose how to deploy the policy by using one of the following methods <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide#choose-how-to-deploy-wdac-policies"">Deploying Windows Defender Application Control (WDAC) policies | Microsoft Learn</a>:</p>
+<ul>
+<li>Deploy using a <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-windows-defender-application-control-policies-using-intune"">Mobile Device Management (MDM) </a>solution, such as Microsoft Intune</li>
+<li>Deploy using <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-memcm"">Microsoft Configuration Manager</a></li>
+<li>Deploy via <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script"">script</a></li>
+<li>Deploy via <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-windows-defender-application-control-policies-using-group-policy"">group policy</a> Note that after you have deployed a code integrity policy workaround, the file will still exist on disk, and can still be detected by scanning software. The workaround only provides an operating system level guarantee that the vulnerable version of the curl tool cannot be executed.</li>
+</ul>
+<p>For example:</p>
+<p><strong>Create a new policy: (These steps will create a new policy named Deny-Curl.xml by merging the deny using the example policy named AllowAll.xml)</strong></p>
+<pre><code>$rule = new-cipolicyrule -DriverFilePath &quot;$env:systemroot\system32\curl.exe&quot; -Level FilePublisher -Deny
+$rule[0].attributes[&quot;MinimumFileVersion&quot;] = &quot;0.0.0.0&quot;
+$rule[0].attributes[&quot;MaximumFileVersion&quot;] = &quot;8.4.0.0&quot;
+
+merge-cipolicy &quot;$env:systemroot\schemas\CodeIntegrity\ExamplePolicies\AllowAll.xml&quot; -Rules $rule -OutputFilePath &quot;Deny-Curl.xml&quot;
+</code></pre>
+<p><strong>Merge into an existing policy</strong></p>
+<pre><code>$rule = new-cipolicyrule -DriverFilePath &quot;$env:systemroot\system32\curl.exe&quot; -Level FilePublisher -Deny
+$rule[0].attributes[&quot;MinimumFileVersion&quot;] = &quot;0.0.0.0&quot;
+$rule[0].attributes[&quot;MaximumFileVersion&quot;] = &quot;8.4.0.0&quot;
+
+merge-cipolicy &quot;existing_policy.xml&quot; -Rules $rule -OutputFilePath &quot;existing_policy.xml&quot;
+</code></pre>
+<p><strong>How to undo this workaround?</strong></p>
+<p>Guidance for how to remove WDAC policies can be found in the following documentation: <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/disable-windows-defender-application-control-policies"">Remove Windows Defender Application Control (WDAC) policies</a>.</p>
+"
+"Oct 19, 2023","Nov 14, 2023",CVE-2023-38545,Hackerone: CVE-2023-38545 SOCKS5 heap buffer overflow,https://www.cve.org/CVERecord?id=CVE-2023-38545,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38545,Remote Code Execution,Important,Windows cURL Implementation,,,,"<p><strong>1.  When will an update be available to address this vulnerability?</strong></p>
+<p>UPDATE:  Microsoft has included version 8.4.0 of curl.exe in Windows updates released on November 14, 2023 for currently supported, on-premise versions of Windows clients and servers. See the Security Updates table in this CVE for the applicable Windows update KB numbers. Windows security updates are cumulative, so future updates will include curl 8.4.0 or higher.</p>
+<p>Microsoft is fully aware of this issue and is actively working to release version 8.4.0 of curl.exe in a future Windows update for currently supported, on-premise versions of Windows clients and servers. The Security Updates table for this CVE will be updated with the Windows update KB numbers for all supported versions as they are released. Customers will be notified via a revision to this security vulnerability when those KB numbers are available. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this CVE. See <a href=""https://www.microsoft.com/en-us/msrc/technical-security-notifications?rtc=1"">Microsoft Technical Security Notifications</a> and <a href=""https://msrc-blog.microsoft.com/2022/08/09/security-update-guide-notification-system-news-create-your-profile-now/"">Security Update Guide Notification System News: Create your profile now – Microsoft Security Response Center</a>.</p>
+<p><strong>2.  What is the curl open-source project?</strong></p>
+<p>Curl is a computer software project providing a library (libcurl) and command-line tool (curl) for transferring data using various network protocols. The name stands for &quot;Client for URL&quot;. The Windows implementation provides access to the command-line tool, not the library.</p>
+<p><strong>3.  Why is this Hackerone CVE included in the Security Update Guide?</strong></p>
+<p>The vulnerability assigned to this CVE is in curl.exe software which is consumed by Microsoft Windows. It is being documented in the Security Update Guide to make customers aware that Microsoft Windows is affected by this CVE, and that Microsoft will be including the curl fix for this vulnerability in a future Windows security update. Note that we do not provide CVSS scores for non-Microsoft CVEs. See <a href=""https://nvd.nist.gov/vuln/detail/CVE-2023-38545"">NVD</a> for scoring information on this CVE.</p>
+<p><strong>4.  How could an attacker exploit the vulnerability?</strong></p>
+<p>This vulnerability is not active by default. To exploit it, the victim must:</p>
+<ul>
+<li>Manually execute the curl.exe utility.</li>
+<li>Be using a SOCKS5 proxy.</li>
+<li>Have a rate limit option (--limit-rate) set to 65540 or lower in the case of the curl.exe utility.</li>
+<li>Use curl to request an attacker-controlled domain OR the attacker must be a MitM.</li>
+</ul>
+<p>For more information see <a href=""https://curl.se/docs/CVE-2023-38545.html"">CVE-2023-38545 SOCKS5 heap buffer overflow</a>.</p>
+<p><strong>5.  What version of curl addresses this CVE?</strong></p>
+<p>Curl version 8.4.0 addresses this vulnerability.</p>
+<p><strong>6.  Where can I find more information about this curl vulnerability?</strong></p>
+<p>More information can be found at <a href=""https://nvd.nist.gov/vuln/detail/CVE-2023-38545"">NVD</a> and <a href=""https://curl.se/docs/CVE-2023-38545.html"">curl.se</a>.</p>
+<p><strong>7.  Are there any workarounds that can be implemented?</strong></p>
+<p>IMPORTANT: Under no circumstances should you remove or replace <code>curl.exe</code>, the curl tool executable, as doing so may damage the Windows Update component store and prevent the installation of further security updates. Instead, we recommend deploying a code integrity policy that restricts the execution of vulnerable versions of <code>curl.exe</code>.</p>
+<p>Note that after you have implemented any of the workarounds the file will still exist on disk, and can still be detected by scanning software. The workaround only provides an operating system level guarantee that the vulnerable version of the curl tool cannot be executed.</p>
+<p><strong>Workaround</strong> Use a WDAC policy to deny execution of the \system32\curl.exe executable. You can merge the deny into an existing policy or create a new policy with it using the Merge-CIPolicy cmdlet; <a href=""https://learn.microsoft.com/en-us/powershell/module/configci/merge-cipolicy?view=windowsserver2022-ps"">Merge-CIPolicy (ConfigCI) | Microsoft Learn</a>. After the policy XML file with the deny has been created or merged with an existing policy it must be deployed.</p>
+<p>Choose how to deploy the policy by using one of the following methods <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide#choose-how-to-deploy-wdac-policies"">Deploying Windows Defender Application Control (WDAC) policies | Microsoft Learn</a>:</p>
+<ul>
+<li>Deploy using a <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-windows-defender-application-control-policies-using-intune"">Mobile Device Management (MDM) </a>solution, such as Microsoft Intune</li>
+<li>Deploy using <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-memcm"">Microsoft Configuration Manager</a></li>
+<li>Deploy via <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-wdac-policies-with-script"">script</a></li>
+<li>Deploy via <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/deployment/deploy-windows-defender-application-control-policies-using-group-policy"">group policy</a> Note that after you have deployed a code integrity policy workaround, the file will still exist on disk, and can still be detected by scanning software. The workaround only provides an operating system level guarantee that the vulnerable version of the curl tool cannot be executed.</li>
+</ul>
+<p>For example:</p>
+<p><strong>Create a new policy: (These steps will create a new policy named Deny-Curl.xml by merging the deny using the example policy named AllowAll.xml)</strong></p>
+<pre><code>$rule = new-cipolicyrule -DriverFilePath &quot;$env:systemroot\system32\curl.exe&quot; -Level FilePublisher -Deny
+$rule[0].attributes[&quot;MinimumFileVersion&quot;] = &quot;0.0.0.0&quot;
+$rule[0].attributes[&quot;MaximumFileVersion&quot;] = &quot;8.4.0.0&quot;
+
+merge-cipolicy &quot;$env:systemroot\schemas\CodeIntegrity\ExamplePolicies\AllowAll.xml&quot; -Rules $rule -OutputFilePath &quot;Deny-Curl.xml&quot;
+</code></pre>
+<p><strong>Merge into an existing policy</strong></p>
+<pre><code>$rule = new-cipolicyrule -DriverFilePath &quot;$env:systemroot\system32\curl.exe&quot; -Level FilePublisher -Deny
+$rule[0].attributes[&quot;MinimumFileVersion&quot;] = &quot;0.0.0.0&quot;
+$rule[0].attributes[&quot;MaximumFileVersion&quot;] = &quot;8.4.0.0&quot;
+
+merge-cipolicy &quot;existing_policy.xml&quot; -Rules $rule -OutputFilePath &quot;existing_policy.xml&quot;
+</code></pre>
+<p><strong>How to undo this workaround?</strong></p>
+<p>Guidance for how to remove WDAC policies can be found in the following documentation: <a href=""https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/disable-windows-defender-application-control-policies"">Remove Windows Defender Application Control (WDAC) policies</a>.</p>
+"
+"Oct 10, 2023","Nov 30, 2023",CVE-2023-36419,Azure HDInsight Apache Oozie Workflow Scheduler XXE Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36419,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36419,Elevation of Privilege,Important,Azure,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited the vulnerability?</strong></p>
+<p>An attacker who successfully exploited this vulnerability could gain cluster administrator privileges.</p>
+"
+"Oct 10, 2023","Nov 14, 2023",CVE-2023-36728,Microsoft SQL Server Denial of Service Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36728,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36728,Denial of Service,Important,SQL Server,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, successful exploitation of this vulnerability could lead to total loss of availability (A:H)? What does that mean for this vulnerability?</strong></p>
+<p>An attacker could impact availability of the service resulting in Denial of Service (DoS).</p>
+"
+"Sep 12, 2023","Nov 14, 2023",CVE-2023-4863,Chromium: CVE-2023-4863 Heap buffer overflow in WebP,https://www.cve.org/CVERecord?id=CVE-2023-4863,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4863,,,Microsoft Edge (Chromium-based),,,,"<p><strong>Why is this Chrome CVE included in the Security Update Guide?</strong></p>
+<p>The vulnerability assigned to this CVE is in Chromium Open Source Software (OSS) which is consumed by Microsoft Edge (Chromium-based). It is being documented in the Security Update Guide to announce that the latest version of Microsoft Edge (Chromium-based) is no longer vulnerable.</p>
+<p><strong>How can I see the version of the browser?</strong></p>
+<ol>
+<li>In your Microsoft Edge browser, click on the 3 dots (...) on the very right-hand side of the window</li>
+<li>Click on <strong>Help and Feedback</strong></li>
+<li>Click on <strong>About Microsoft Edge</strong></li>
+</ol>
+"
+"Sep 12, 2023","Nov 14, 2023",CVE-2023-36792,Visual Studio Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36792,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36792,Remote Code Execution,Critical,.NET and Visual Studio,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>Exploitation of this vulnerability requires that an attacker convinces a user to open a maliciously crafted package file in Visual Studio.</p>
+"
+"Sep 12, 2023","Nov 14, 2023",CVE-2023-36793,Visual Studio Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36793,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36793,Remote Code Execution,Critical,.NET and Visual Studio,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>Exploitation of this vulnerability requires that an attacker convinces a user to open a maliciously crafted package file in Visual Studio.</p>
+"
+"Sep 12, 2023","Nov 14, 2023",CVE-2023-36794,Visual Studio Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36794,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36794,Remote Code Execution,Important,.NET and Visual Studio,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>Exploitation of this vulnerability requires that an attacker convinces a user to open a maliciously crafted package file in Visual Studio.</p>
+"
+"Sep 12, 2023","Nov 21, 2023",CVE-2023-36796,Visual Studio Remote Code Execution Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-36796,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36796,Remote Code Execution,Critical,.NET and Visual Studio,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?</strong></p>
+<p>Exploitation of this vulnerability requires that an attacker convinces a user to open a maliciously crafted package file in Visual Studio.</p>
+"
+"Sep 12, 2023","Nov 30, 2023",CVE-2023-38156,Azure HDInsight Apache Ambari JDBC Injection Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-38156,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38156,Elevation of Privilege,Important,Azure HDInsights,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>How could an attacker exploit this vulnerability?</strong></p>
+<p>An authenticated attacker with access to the target HDI cluster could send a specially crafted network request to create and assign themselves as a Cluster Administrator. Cluster Administrators can read/write/delete and perform all resource service management operations.</p>
+"
+"Aug 8, 2023","Nov 28, 2023",CVE-2023-38175,Microsoft Windows Defender Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2023-38175,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38175,Elevation of Privilege,Important,Windows Defender,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>What privileges could be gained by an attacker who successfully exploited the vulnerability?</strong></p>
+<p>An attacker would only be able to delete targeted files on a system.</p>
+"
+"Aug 9, 2022","Dec 4, 2023",CVE-2022-24477,Microsoft Exchange Server Elevation of Privilege Vulnerability,https://www.cve.org/CVERecord?id=CVE-2022-24477,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24477,Elevation of Privilege,Critical,Microsoft Exchange Server,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C,,,"<p><strong>Are there any more actions I need to take to be protected from this vulnerability?</strong></p>
+<p>Yes. Customers running an affected version of Microsoft Exchange need to enable Extended Protection to be protected from this vulnerability. For more information, see <a href=""https://aka.ms/ExchangeEPDoc"">Exchange Server Support for Windows Extended Protection</a>.</p>
+<p><strong>Is there more information available about this release of Exchange Server?</strong></p>
+<p>For more information on this issue, please see <a href=""https://techcommunity.microsoft.com/t5/exchange-team-blog/released-august-2022-exchange-server-security-updates/ba-p/3593862"">The Exchange Blog</a>.</p>
+"
+"Feb 9, 2021","Nov 14, 2023",CVE-2021-1730,Microsoft Exchange Server Spoofing Vulnerability,https://www.cve.org/CVERecord?id=CVE-2021-1730,https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1730,,,Microsoft Exchange Server,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N/E:P/RL:O/RC:C,,,"<p><strong>Why are the updates listed those that were released in September?</strong></p>
+<p>This vulnerability was found in the Exchange Server Installer. This type of vulnerability can only be addressed in a complete release as opposed to a cumulative update. We allowed time for customers to move to the September release prior to disclosing the vulnerability.</p>
+<p><strong>What are the steps to configure Download Domains to enable the protection from this vulnerability?</strong></p>
+<p>Yes, please see <a href=""https://learn.microsoft.com/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-download-domains"">Exchange Download Domains</a> for detailed information.</p>
+"
+"Aug 13, 2019","Nov 14, 2023",ADV190023,Microsoft Guidance for Enabling LDAP Channel Binding and LDAP Signing,https://www.cve.org/CVERecord?id=ADV190023,https://msrc.microsoft.com/update-guide/vulnerability/ADV190023,None,None,Windows Active Directory,,,,
+"Nov 13, 2018","Nov 14, 2023",ADV990001,Latest Servicing Stack Updates,https://www.cve.org/CVERecord?id=ADV990001,https://msrc.microsoft.com/update-guide/vulnerability/ADV990001,,,Servicing Stack Updates,,,,"<p><strong>1. Why are all of the Servicing Stack Updates (SSU) critical updates?</strong></p>
+<p>The SSUs are classified as Critical updates. This does not indicate that there is a critical vulnerability being addressed in the update.</p>
+<p><strong>2. When was the most recent SSU released for each version of Microsoft Windows?</strong></p>
+<p>Please refer to the following table for the most recent SSU release. We will update the entries any time a new SSU is released:</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>SSU Package</th>
+<th>Date Released</th>
+<th>Status</th>
+<th>Combined LSU/SSU Package Available</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows Server 2008</td>
+<td>5032384</td>
+<td>November 2023</td>
+<td>Extended Security Updates</td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 7/Server 2008 R2</td>
+<td>5032383</td>
+<td>November 2023</td>
+<td>Extended Security Updates</td>
+<td></td>
+</tr>
+<tr>
+<td>Windows Server 2012</td>
+<td>5032309</td>
+<td>November 2023</td>
+<td>Extended Security Updates</td>
+<td></td>
+</tr>
+<tr>
+<td>Server 2012 R2</td>
+<td>5032308</td>
+<td>November 2023</td>
+<td>Extended Security Updates</td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 10</td>
+<td>5032390</td>
+<td>November 2023</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 10 Version 1607/Server 2016</td>
+<td>5032391</td>
+<td>November 2023</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 10 Version 1709/Windows Server, version 1709</td>
+<td>4565553</td>
+<td>July 2020</td>
+<td>Out of Support</td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 10 1803</td>
+<td>5001400</td>
+<td>April 2021</td>
+<td>Out of Support</td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 10 1809/Server 2019</td>
+<td>5031589</td>
+<td>October 2023</td>
+<td></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Windows 10 1903/Windows Server, version 1903</td>
+<td>4586863</td>
+<td>July 2020</td>
+<td>Out of Support</td>
+<td></td>
+</tr>
+<tr>
+<td>Windows 10 1909/Windows Server, version 1909</td>
+<td>5005412</td>
+<td>August 2021</td>
+<td>Out of Support</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Windows 10 2004/Windows Server, version 2004</td>
+<td>5005260</td>
+<td>August 2021</td>
+<td>Out of Support</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Windows 10 20H2/Windows Server, version 20H2</td>
+<td>5005260</td>
+<td>August 2021</td>
+<td></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Windows 10 21H1</td>
+<td>5005260</td>
+<td>August 2021</td>
+<td></td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. Where can I find more information about the Servicing Stack Updates?</strong></p>
+<p>You can find more information by following these links:</p>
+<ul>
+<li><a href=""https://docs.microsoft.com/en-us/windows/deployment/update/servicing-stack-updates#why-should-servicing-stack-updates-be-installed-and-kept-up-to-date"">Servicing Stack Updates</a></li>
+<li><a href=""https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-7-servicing-stack-updates-managing-change-and/ba-p/260434"">Windows 7 servicing stack updates</a></li>
+<li><a href=""https://techcommunity.microsoft.com/t5/windows-it-pro-blog/deploy-windows-ssus-and-lcus-together-with-one-cumulative-update/ba-p/1967887"">Deploy Windows SSUs and LCUs together with one cumulative update</a></li>
+</ul>
+<p><strong>4. Why have the 2004, 20H2, and 21H1 rows been added back to the table for the August 2021 updates?</strong></p>
+<p>For Windows Server Update Services (WSUS) deployment or when installing the standalone package from Microsoft Update Catalog:</p>
+<p>If your devices does not have the May 11, 2021 update (<a href=""https://support.microsoft.com/help/5003173"">KB5003173</a>) or later LCU, you <strong>must</strong> install the special standalone August 10, 2021 SSU (<a href=""https://support.microsoft.com/help/5005260"">KB5005260</a>).</p>
+"
